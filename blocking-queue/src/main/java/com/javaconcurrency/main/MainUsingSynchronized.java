@@ -2,16 +2,15 @@ package com.javaconcurrency.main;
 
 import com.javaconcurrency.impl.BlockingQueueUsingSynchronized;
 
-public class Main {
+public class MainUsingSynchronized {
   public static void main(String[] args) throws InterruptedException {
-    BlockingQueueUsingSynchronized<Integer> blockingQueueUsingSynchronized =
-        new BlockingQueueUsingSynchronized<>(5);
+    BlockingQueueUsingSynchronized<Integer> blockingQueue = new BlockingQueueUsingSynchronized<>(5);
     Thread t1 =
         new Thread(
             () -> {
               try {
                 for (int i = 0; i < 50; i++) {
-                  blockingQueueUsingSynchronized.enqueue(i);
+                  blockingQueue.enqueue(i);
                 }
               } catch (InterruptedException ex) {
                 // do something
@@ -23,7 +22,7 @@ public class Main {
             () -> {
               try {
                 for (int i = 0; i < 25; i++) {
-                  blockingQueueUsingSynchronized.dequeue();
+                  blockingQueue.dequeue();
                 }
               } catch (InterruptedException ex) {
                 // do something
@@ -35,7 +34,7 @@ public class Main {
             () -> {
               try {
                 for (int i = 0; i < 25; i++) {
-                  blockingQueueUsingSynchronized.dequeue();
+                  blockingQueue.dequeue();
                 }
               } catch (InterruptedException ex) {
                 // do something
