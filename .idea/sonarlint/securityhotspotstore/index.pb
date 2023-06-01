@@ -1,8 +1,6 @@
 
 F
 blocking-queue/pom.xml,b/6/b680fcd89568430b550d6e6cd414403f01402c73
-H
-blocking-queue/Readme.md,0/1/0150c42ed58c59e02b39111926e8a4c5452a4f0c
 ‰
 Yblocking-queue/src/main/java/com/javaconcurrency/impl/BlockingQueueUsingSynchronized.java,2/4/245910c01ce98ba946640348e7050c625991e539
 ‚
@@ -17,5 +15,3 @@ Mblocking-queue/src/main/java/com/javaconcurrency/main/MainUsingSemaphore.java,
 Vblocking-queue/src/main/java/com/javaconcurrency/impl/BlockingQueueUsingSemaphore.java,a/5/a5720f27d47b6d674bee8428158805091fbaca29
 K
 token-bucket-filter/pom.xml,6/5/656934be535dcb1adb79df91535611057a0af726
-M
-token-bucket-filter/Readme.md,9/3/930abf0bbb73294cbe89b60a7aa190e56dc064a3
