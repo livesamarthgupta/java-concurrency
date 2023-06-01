@@ -12,7 +12,7 @@ This problem is a naive form of a class of algorithms called the "token bucket" 
 
 The key to the problem is to find a way to track the number of available tokens when a consumer requests for a token. Note the rate at which the tokens are being generated is constant. So if we know when the token bucket was instantiated and when a consumer called getToken() we can take the difference of the two instants and know the number of possible tokens we would have collected so far. However, we'll need to tweak our solution to account for the max number of tokens the bucket can hold. Let's start with the skeleton of our class
 
-```agsl
+```java
 public class TokenBucketFilter {
 
     private int MAX_TOKENS;

@@ -14,7 +14,7 @@ Consider this example: initially, the execution thread is sleeping for 30 mins b
 
 Let's see how the skeleton of our class would look like:
 
-```agsl
+```java
 public class DeferredCallbackExecutor {
 
     PriorityQueue<CallBack> q = new PriorityQueue<CallBack>(new Comparator<CallBack>() {
