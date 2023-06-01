@@ -11,15 +11,15 @@ public class CountingSemaphore {
     public synchronized void acquire() throws InterruptedException {
         while (usedPermits == maxPermits)
             wait();
-
-        usedPermits++;
+        System.out.println("acquiring");
         notify();
+        usedPermits++;
     }
 
     public synchronized void release() throws InterruptedException {
         while (usedPermits == 0)
             wait();
-
+        System.out.println("releasing");
         usedPermits--;
         notify();
     }
