@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/read-write-lock/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thread-barrier/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thread-barrier/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/token-bucket-filter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/token-bucket-filter/src/main/resources" charset="UTF-8" />
   </component>
