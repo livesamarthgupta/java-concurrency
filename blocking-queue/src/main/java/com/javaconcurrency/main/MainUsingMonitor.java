@@ -1,10 +1,10 @@
 package com.javaconcurrency.main;
 
-import com.javaconcurrency.impl.BlockingQueueUsingSynchronized;
+import com.javaconcurrency.impl.BlockingQueueUsingMonitor;
 
-public class MainUsingSynchronized {
+public class MainUsingMonitor {
   public static void main(String[] args) throws InterruptedException {
-    BlockingQueueUsingSynchronized<Integer> blockingQueue = new BlockingQueueUsingSynchronized<>(5);
+    BlockingQueueUsingMonitor<Integer> blockingQueue = new BlockingQueueUsingMonitor<>(5);
     Thread t1 =
         new Thread(
             () -> {

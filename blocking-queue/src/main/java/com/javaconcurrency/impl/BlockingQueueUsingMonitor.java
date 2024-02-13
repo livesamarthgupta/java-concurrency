@@ -1,13 +1,13 @@
 package com.javaconcurrency.impl;
 
-public class BlockingQueueUsingSynchronized<T> {
+public class BlockingQueueUsingMonitor<T> {
   T[] array;
   int size;
   int capacity;
   int head = 0;
   int tail = 0;
 
-  public BlockingQueueUsingSynchronized(int capacity) {
+  public BlockingQueueUsingMonitor(int capacity) {
     this.capacity = capacity;
     array = (T[]) new Object[this.capacity];
   }
