@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.javaconcurrency</groupId>
+        <artifactId>java-concurrency</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>org.javaconcurrency</groupId>
-    <artifactId>java-concurrency</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>blocking-queue</module>
-        <module>token-bucket-filter</module>
-        <module>deferred-callback-executor</module>
-        <module>counting-semaphore</module>
-        <module>read-write-lock</module>
-        <module>thread-barrier</module>
-        <module>ordered-printing</module>
-    </modules>
+    <artifactId>ordered-printing</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
