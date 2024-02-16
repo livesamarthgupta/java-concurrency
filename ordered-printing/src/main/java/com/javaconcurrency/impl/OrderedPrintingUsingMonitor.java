@@ -1,8 +1,8 @@
 package com.javaconcurrency.impl;
 
-public class OrderedPrinting {
+public class OrderedPrintingUsingMonitor {
     private int count;
-    public OrderedPrinting() {
+    public OrderedPrintingUsingMonitor() {
         count = 1;
     }
     public synchronized void printFirst() throws InterruptedException {

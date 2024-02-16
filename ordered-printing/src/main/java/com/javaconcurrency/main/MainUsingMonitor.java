@@ -1,10 +1,10 @@
 package com.javaconcurrency.main;
 
-import com.javaconcurrency.impl.OrderedPrinting;
+import com.javaconcurrency.impl.OrderedPrintingUsingMonitor;
 
-public class Main {
+public class MainUsingMonitor {
     public static void main(String[] args) {
-        OrderedPrinting op = new OrderedPrinting();
+        OrderedPrintingUsingMonitor op = new OrderedPrintingUsingMonitor();
         Thread t1 = new Thread(() -> {
             try {
                 op.printFirst();
