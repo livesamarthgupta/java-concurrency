@@ -1,14 +1,14 @@
 package com.javaconcurrency.main;
 
-import com.javaconcurrency.impl.PrintNumberSeries;
+import com.javaconcurrency.impl.PrintNumberSeriesUsingMonitor;
 
-public class Main {
+public class MainUsingMonitor {
     public static void main(String[] args) {
-        final PrintNumberSeries printNumberSeries = new PrintNumberSeries(10);
+        final PrintNumberSeriesUsingMonitor printNumberSeriesUsingMonitor = new PrintNumberSeriesUsingMonitor(10);
 
         Thread evenThread = new Thread(() -> {
             try {
-                printNumberSeries.printEven();
+                printNumberSeriesUsingMonitor.printEven();
             } catch (InterruptedException e) {
                 // ignore
             }
@@ -16,7 +16,7 @@ public class Main {
 
         Thread oddThread = new Thread(() -> {
             try {
-                printNumberSeries.printOdd();
+                printNumberSeriesUsingMonitor.printOdd();
             } catch (InterruptedException e) {
                 // ignore
             }

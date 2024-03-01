@@ -1,9 +1,9 @@
 package com.javaconcurrency.impl;
 
-public class PrintNumberSeries {
+public class PrintNumberSeriesUsingMonitor {
     private int n;
     private int i;
-    public PrintNumberSeries(int n) {
+    public PrintNumberSeriesUsingMonitor(int n) {
         this.n = n;
         this.i = 1;
     }

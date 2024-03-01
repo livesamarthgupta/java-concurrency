@@ -67,3 +67,11 @@ E
 Knumber-series/src/main/java/com/javaconcurrency/impl/PrintNumberSeries.java,f/e/fe442945d692dfe55e8156c11468bcc5c09f9dd5
 n
 >number-series/src/main/java/com/javaconcurrency/main/Main.java,5/e/5e9ecfc3517177f56f1ba31c8d90519618fbfe94
+‡
+Wnumber-series/src/main/java/com/javaconcurrency/impl/PrintNumberSeriesUsingMonitor.java,9/b/9b9556d83b4bfdf87893660d436e90df54de43f8
+z
+Jnumber-series/src/main/java/com/javaconcurrency/main/MainUsingMonitor.java,0/2/02012ade440ad6a42e31c40ff1e8e32e81f11009
+‰
+Ynumber-series/src/main/java/com/javaconcurrency/impl/PrintNumberSeriesUsingSemaphore.java,3/e/3e40454f4c05dbf0bc03e4812cd15ef575c369a9
+|
+Lnumber-series/src/main/java/com/javaconcurrency/main/MainUsingSemaphore.java,6/2/629629fd4012d4573498c94d278de5fb2887a0d3
