@@ -17,6 +17,7 @@
         <module>thread-barrier</module>
         <module>ordered-printing</module>
         <module>foo-bar</module>
+        <module>number-series</module>
     </modules>
 
     <properties>

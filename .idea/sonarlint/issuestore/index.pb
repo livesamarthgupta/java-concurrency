@@ -61,3 +61,9 @@ o
 ?foo-bar/src/main/java/com/javaconcurrency/impl/PrintFooBar.java,7/c/7c67e884290feccae8dbfac68bce93199f17d902
 h
 8foo-bar/src/main/java/com/javaconcurrency/main/Main.java,7/1/7173dfbbd604b212faa3ad7eb5a974e137fc0e2f
+E
+number-series/pom.xml,1/5/15ac651c70019652aca16e9604aae436b87946cc
+{
+Knumber-series/src/main/java/com/javaconcurrency/impl/PrintNumberSeries.java,f/e/fe442945d692dfe55e8156c11468bcc5c09f9dd5
+n
+>number-series/src/main/java/com/javaconcurrency/main/Main.java,5/e/5e9ecfc3517177f56f1ba31c8d90519618fbfe94
