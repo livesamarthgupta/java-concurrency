@@ -3,13 +3,13 @@ package com.javaconcurrency.impl;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class H2OMachine {
+public class H2OMachineUsingMonitor {
     private static final Character HYDROGEN = 'H';
     private static final Character OXYGEN = 'O';
     private Character[] molecule;
     private int count;
 
-    public H2OMachine() {
+    public H2OMachineUsingMonitor() {
         this.molecule = new Character[3];
         this.count  = 0;
     }

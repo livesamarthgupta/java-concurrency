@@ -1,34 +1,31 @@
 package com.javaconcurrency.main;
 
-import com.javaconcurrency.impl.H2OMachine;
+import com.javaconcurrency.impl.H2OMachineUsingMonitor;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Main {
+public class MainUsingMonitor {
     public static void main(String[] args) {
-        final H2OMachine machine =  new H2OMachine();
+        final H2OMachineUsingMonitor machine =  new H2OMachineUsingMonitor();
         Set<Thread> threads = new HashSet<>();
 
         for (int i = 0; i < 10; i++) {
-            Thread hThread = new Thread(() -> {
+            threads.add(new Thread(() -> {
                 try {
                     machine.hydrogenAtom();
                 } catch (InterruptedException e) {
-                    // ignore;
+                    // ignore
                 }
-            });
+            }));
 
-            Thread oThread = new Thread(() -> {
+            threads.add(new Thread(() -> {
                 try {
                     machine.oxygenAtom();
                 } catch (InterruptedException e) {
-                    // ignore;
+                    // ignore
                 }
-            });
-
-            threads.add(hThread);
-            threads.add(oThread);
+            }));
         }
 
         threads.forEach(Thread::start);
