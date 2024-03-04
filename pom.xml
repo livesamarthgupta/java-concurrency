@@ -18,6 +18,7 @@
         <module>ordered-printing</module>
         <module>foo-bar</module>
         <module>number-series</module>
+        <module>hydrogen-machine</module>
     </modules>
 
     <properties>

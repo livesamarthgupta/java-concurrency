@@ -37,14 +37,8 @@ T
 $deferred-callback-executor/Readme.md,1/1/11c990feef70fb0fd0b24a5840a342d443b6d4b9
 R
 "deferred-callback-executor/pom.xml,9/4/940bc270447a5e35d484830c79f9e0686ac4df49
-
-_deferred-callback-executor/src/main/java/com/javaconcurrency/impl/DeferredCallbackExecutor.java,b/0/b0ddb59cc3d5a7071c652fc4f5bdf1d9ba5f9f24
 
 Odeferred-callback-executor/src/main/java/com/javaconcurrency/impl/Callback.java,7/8/78326e77d4b83ed33be9d0cd78bdfb40a0928459
-{
-Kdeferred-callback-executor/src/main/java/com/javaconcurrency/main/Main.java,c/8/c82b0cc74036f1e3b179038679dc77006731270e
-
-`deferred-callback-executor/src/main/java/com/javaconcurrency/impl/DeferredCallbackExecutor2.java,a/c/ac63616acd898ee38b80b64fc20d21cf2b2ead2e
 „
 Tblocking-queue/src/main/java/com/javaconcurrency/impl/BlockingQueueUsingMonitor.java,8/3/83aceae5ea0dd4a8b597cea0ae30c7c9a90faa67
 …
@@ -63,10 +57,6 @@ h
 8foo-bar/src/main/java/com/javaconcurrency/main/Main.java,7/1/7173dfbbd604b212faa3ad7eb5a974e137fc0e2f
 E
 number-series/pom.xml,1/5/15ac651c70019652aca16e9604aae436b87946cc
-{
-Knumber-series/src/main/java/com/javaconcurrency/impl/PrintNumberSeries.java,f/e/fe442945d692dfe55e8156c11468bcc5c09f9dd5
-n
->number-series/src/main/java/com/javaconcurrency/main/Main.java,5/e/5e9ecfc3517177f56f1ba31c8d90519618fbfe94
 ‡
 Wnumber-series/src/main/java/com/javaconcurrency/impl/PrintNumberSeriesUsingMonitor.java,9/b/9b9556d83b4bfdf87893660d436e90df54de43f8
 z
@@ -75,3 +65,11 @@ Jnumber-series/src/main/java/com/javaconcurrency/main/MainUsingMonitor.java,0/2
 Ynumber-series/src/main/java/com/javaconcurrency/impl/PrintNumberSeriesUsingSemaphore.java,3/e/3e40454f4c05dbf0bc03e4812cd15ef575c369a9
 |
 Lnumber-series/src/main/java/com/javaconcurrency/main/MainUsingSemaphore.java,6/2/629629fd4012d4573498c94d278de5fb2887a0d3
+H
+hydrogen-machine/pom.xml,d/c/dc28107fe6e362c53d615c50af19c6ed5f79d477
+w
+Ghydrogen-machine/src/main/java/com/javaconcurrency/impl/H2oMachine.java,8/e/8e8cd5d38783b3f87d72f62eef55a73e51b87159
+q
+Ahydrogen-machine/src/main/java/com/javaconcurrency/main/Main.java,7/8/7828be3f35d9c5677e15bfc3d1ad7b706be967f9
+w
+Ghydrogen-machine/src/main/java/com/javaconcurrency/impl/H2OMachine.java,c/b/cb1f21614c14b1396900dadad9b4edadfc4f2ef0
