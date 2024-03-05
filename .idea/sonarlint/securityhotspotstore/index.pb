@@ -81,3 +81,9 @@ Mhydrogen-machine/src/main/java/com/javaconcurrency/main/MainUsingMonitor.java,
 Shydrogen-machine/src/main/java/com/javaconcurrency/impl/H2OMachineUsingMonitor.java,6/b/6b861eb1f5eef1a2cb5c0426de3ccd1bcce032ca
 
 Ohydrogen-machine/src/main/java/com/javaconcurrency/main/MainUsingSemaphore.java,9/1/91df956d6269f73f146ee2722e27acdadb0e321a
+A
+fizz-buzz/pom.xml,1/b/1b4ae5be371e188c2e224265e52d59a41db02c0a
+n
+>fizz-buzz/src/main/java/com/javaconcurrency/impl/FizzBuzz.java,8/3/833bc03363afaddf7b5feaeaf3362a6fcc66223a
+j
+:fizz-buzz/src/main/java/com/javaconcurrency/main/Main.java,5/1/51e3ef421dd3cc6d34b085337ea7fd493583e078

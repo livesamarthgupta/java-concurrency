@@ -19,6 +19,7 @@
         <module>foo-bar</module>
         <module>number-series</module>
         <module>hydrogen-machine</module>
+        <module>fizz-buzz</module>
     </modules>
 
     <properties>
