@@ -3,7 +3,7 @@ package com.javaconcurrency.impl;
 public class ThreadBarrier {
   private int count = 0;
   private int released = 0;
-  private int totalThreads;
+  private final int totalThreads;
 
   public ThreadBarrier(int totalThreads) {
     this.totalThreads = totalThreads;
@@ -27,7 +27,7 @@ public class ThreadBarrier {
     released--;
     if (released == 0) {
       count = 0;
-      // remember to wakeup any threads waiting on line#14
+      // remember to wakeup any threads waiting on line#15
       notifyAll();
     }
   }

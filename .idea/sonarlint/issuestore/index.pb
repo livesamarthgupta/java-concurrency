@@ -67,12 +67,6 @@ Ynumber-series/src/main/java/com/javaconcurrency/impl/PrintNumberSeriesUsingSema
 Lnumber-series/src/main/java/com/javaconcurrency/main/MainUsingSemaphore.java,6/2/629629fd4012d4573498c94d278de5fb2887a0d3
 H
 hydrogen-machine/pom.xml,d/c/dc28107fe6e362c53d615c50af19c6ed5f79d477
-w
-Ghydrogen-machine/src/main/java/com/javaconcurrency/impl/H2oMachine.java,8/e/8e8cd5d38783b3f87d72f62eef55a73e51b87159
-q
-Ahydrogen-machine/src/main/java/com/javaconcurrency/main/Main.java,7/8/7828be3f35d9c5677e15bfc3d1ad7b706be967f9
-w
-Ghydrogen-machine/src/main/java/com/javaconcurrency/impl/H2OMachine.java,c/b/cb1f21614c14b1396900dadad9b4edadfc4f2ef0
 …
 Uhydrogen-machine/src/main/java/com/javaconcurrency/impl/H2OMachineUsingSemaphore.java,e/b/ebef74cb4b9835c574f2886eb23d0d49e440f9dd
 }
@@ -87,3 +81,11 @@ n
 >fizz-buzz/src/main/java/com/javaconcurrency/impl/FizzBuzz.java,8/3/833bc03363afaddf7b5feaeaf3362a6fcc66223a
 j
 :fizz-buzz/src/main/java/com/javaconcurrency/main/Main.java,5/1/51e3ef421dd3cc6d34b085337ea7fd493583e078
+€
+Pcounting-semaphore/src/main/java/com/javaconcurrency/impl/CountingSemaphore.java,a/e/ae3bd8f4cc969859ee1a0d59708c7e263a3c0572
+H
+thread-barrier/Readme.md,b/f/bfd24b25bb3c562d0358fe2f88d436a8e5c33f39
+I
+read-write-lock/Readme.md,5/a/5af06f7ec5bcd68a632afc62568fe89dacc6a0cc
+x
+Hthread-barrier/src/main/java/com/javaconcurrency/impl/ThreadBarrier.java,9/3/93654361027b141e0ecdf35be9179d0fe35784d3
